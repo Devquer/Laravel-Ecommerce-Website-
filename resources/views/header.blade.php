@@ -40,6 +40,8 @@ if(Session::has('user'))
             <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/logout">Logout</a></li>
+              <li><a href="/myorders">My Orders</a></li>
+
             </ul>
           </li>
           @else
